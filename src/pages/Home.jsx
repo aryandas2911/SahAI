@@ -39,9 +39,9 @@ export default function Home() {
                     <ArrowRight className="w-5 h-5" />
                   </button>
                 </Link>
-                <Link to="/awareness">
+                <Link to="/features">
                   <button className="btn-secondary w-full sm:w-auto flex items-center justify-center gap-2">
-                    Explore Awareness Feed
+                    Explore All Features
                     <Lightbulb className="w-5 h-5" />
                   </button>
                 </Link>
