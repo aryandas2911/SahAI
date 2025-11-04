@@ -255,7 +255,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/10 dark:to-purple-900/10 rounded-3xl p-12 text-center border border-blue-200 dark:border-blue-700 transition-colors duration-300">
+        <div className="max-w-4xl mx-auto from-blue-50 to-purple-50 dark:from-blue-900/10 dark:to-purple-900/10 rounded-3xl p-12 text-center border border-blue-200 dark:border-blue-700 transition-colors duration-300">
           <BookOpen className="w-16 h-16 text-blue-600 dark:text-blue-400 mx-auto mb-6" />
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">
             Ready to Access Your Benefits?

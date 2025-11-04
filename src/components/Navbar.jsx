@@ -28,19 +28,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div
-              style={{
-                backgroundColor: "var(--primary)",
-              }}
-              className="w-8 h-8 rounded-lg flex items-center justify-center"
-            >
-              <span
-                style={{ color: "var(--primary-foreground)" }}
-                className="font-bold text-lg"
-              >
-                S
-              </span>
-            </div>
+            <img
+              src="/logo.png" // place your file in public/ folder or import it
+              alt="SahAI Logo"
+              className="w-8 h-8 rounded-lg" // adjust size as needed
+            />
             <span
               style={{ color: "var(--foreground)" }}
               className="font-bold text-xl hidden sm:inline"

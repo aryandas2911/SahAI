@@ -18,7 +18,7 @@ const ChatBubble = ({ message }) => {
     <div className={cn("flex mb-4", isUser ? "justify-end" : "justify-start")}>
       <div
         className={cn(
-          "rounded-2xl p-3 max-w-md break-words",
+          "rounded-2xl p-3 max-w-md",
           isUser
             ? "bg-blue-100 dark:bg-blue-500 text-gray-800 dark:text-white rounded-br-none"
             : "bg-blue-600 dark:bg-blue-700 text-white dark:text-white rounded-bl-none"
@@ -135,7 +135,7 @@ export default function Chat() {
   const handleKeyPress = (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); handleSend(); } };
 
   return (
-    <div className="flex h-full bg-gradient-to-b from-blue-50 dark:from-gray-900 to-blue-100 dark:to-gray-800 transition-colors duration-300">
+    <div className="flex h-full from-blue-50 dark:from-gray-900 to-blue-100 dark:to-gray-800 transition-colors duration-300">
       {/* Main Chat Container */}
       <div className="flex flex-col flex-1">
         {/* Top Bar */}
