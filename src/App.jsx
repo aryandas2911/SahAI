@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Chat from "./pages/Chat";
 import HowTo from "./pages/HowTo";
 import Features from "./pages/Features";
+import Help from "./pages/Help";
 import Navbar from "./components/Navbar";
 import ThemeProvider from "./components/ThemeProvider.jsx";
 import { FloatingChatbotWidget } from "./components/FloatingChatbotWidget";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/chat" element={<Chat />} />
           <Route path="/features" element={<Features />} />
           <Route path="/howto" element={<HowTo />} />
+          <Route path="/help" element={<Help />} />
         </Routes>
         <FloatingChatbotWidget />
         <Footer />

@@ -14,9 +14,9 @@ const features = [
   {
     id: 2,
     icon: <BookOpen className="w-8 h-8 text-white" />,
-    title: "Awareness Feed",
+    title: "How-To",
     description:
-      "Get updates, news, schemes, and subsidies specific to your region. Short, verified cards and infographics make it easy to stay informed.",
+      "Step-by-step guides to help you access government benefits easily, apply to schemes, and stay informed with SahAI.",
     bgColor: "bg-green-600",
   },
   {
