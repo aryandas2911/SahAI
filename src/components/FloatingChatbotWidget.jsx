@@ -49,7 +49,7 @@ export function FloatingChatbotWidget() {
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Open chatbot"
         className="fixed bottom-6 right-6 z-50 rounded-full p-4 shadow-lg transition-all duration-200
-                   bg-primary text-primary-foreground hover:scale-105 dark:bg-primary-light dark:text-primary-foreground"
+                   bg-primary text-primary-foreground hover:scale-105 dark:bg-primary-light dark:text-primary-foreground hover:bg-blue-700 border bg-blue-600"
       >
         {isOpen ? (
           <X className="w-6 h-6" />
@@ -61,7 +61,7 @@ export function FloatingChatbotWidget() {
       {/* Chat Widget */}
       {isOpen && (
         <div
-          className="fixed bottom-24 right-6 w-96 max-w-full h-96 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700
+          className="fixed bottom-24 right-6 w-96 max-w-full h-96 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-200
                         rounded-xl shadow-xl flex flex-col z-50 transition-colors duration-300"
         >
           {/* Header */}
