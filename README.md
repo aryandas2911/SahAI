@@ -1,16 +1,137 @@
-# React + Vite
+# 🧠 SahAI – Empowering Citizens Through Smart Assistance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🌍 *A Conversational AI-powered platform simplifying access to government schemes through awareness, guided help, and automation.*
 
-Currently, two official plugins are available:
+> Built with ❤️ for **Tech4Impact 2025** by **Team 404 No Sleep** – Finalists @ NSUT Hackathon
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**SahAI** is a **frontend prototype** designed to help citizens **discover, apply for, and track** government schemes effortlessly — all through a **conversational, voice-assisted interface**.
 
-## Expanding the ESLint configuration
+It aims to make public services **accessible, inclusive, and user-friendly**, breaking the barriers of complex forms and confusing eligibility criteria.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 💡 Vision
+To simplify digital governance by creating a unified platform where **awareness meets accessibility** — helping every citizen benefit from the schemes they deserve.
+
+---
+
+## 🎯 Core Features
+
+| Feature | Description |
+|----------|--------------|
+| 💬 **AI Chatbot** | A guided conversational assistant that helps users explore government schemes. |
+| ⚙️ **Form Automation** | AI-assisted input and voice-to-form automation for faster, error-free applications. |
+| 🧾 **Eligibility Checker** | Determines eligibility for schemes using simple Q&A. |
+| 📱 **Awareness Feed** | Short, verified informational cards about new and ongoing government programs. |
+| 🧭 **Guides & Help** | Step-by-step "How-To" guides for navigating government processes. |
+| 🕓 **Application Tracking** | Concept feature to help users track and receive reminders for submissions. |
+
+---
+
+## 🧩 Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| ⚛️ **React.js** | Frontend framework |
+| 🎨 **Tailwind CSS** | Styling and responsiveness |
+| 🧭 **React Router DOM** | Navigation between pages |
+| 🔆 **Lucide React** | Clean, modern icons |
+| ☁️ **Netlify** | Deployment platform |
+
+---
+
+## 🧑‍💻 Hackathon Journey – *Tech4Impact 2025, NSUT*
+
+🎓 **Theme:** *Tech for Awareness and Empowerment*  
+👥 **Team Name:** *404 No Sleep*  
+👩‍💻 **Team Members:** Aryan Das, Sandra Rosa Prince, Tanushree Dhawan, Bhumika Bindal  
+
+📅 **Rounds:**
+1. **Shortlisting Round:** Cleared and invited to the offline finale.  
+2. **Quiz Round:** Ranked **#1 among 30 finalist teams** in programming and sustainability quiz.  
+3. **Prototype Round:** Built and presented the **SahAI platform prototype** within **3 hours**.
+
+🏁 **Result:** Finalists
+
+---
+
+## 🖥️ Live Demo
+
+👉 **Visit the deployed prototype:** [https://sahai.netlify.app/](https://sahai.netlify.app/)
+
+🖼️ **Preview Screens:**
+- Landing Page ![Landing page](/Screenshots/Landing_page.png) 
+- Features Page  ![Features page](/Screenshots/Features_page.png)
+- Chatbot Interface ![Chatbot page](/Screenshots/Chatbot_page.png)
+
+---
+
+## ⚙️ Installation & Setup
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/aryandas2911/SahAI.git
+
+# Navigate to the project directory
+cd SahAI
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+---
+
+## 🔮 Future Roadmap
+
+✅ Frontend Prototype (Completed)
+🚧 Next Steps:
+- 🌐 Add multilingual voice support (Hindi, Bengali, Tamil, etc.)
+- 🧠 Integrate real NLP chatbot backend (Dialogflow / Rasa)
+- 🗂️ Implement form auto-fill & eligibility logic
+- 🔔 Add application tracking & reminders via notifications
+- 🧍‍♀️ Improve accessibility for differently-abled users
+
+---
+
+## 🏗️ Project Structure
+
+```bash
+SahAI/
+│
+├── public/
+│   ├── logo.png
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+|   |   ├── Footer.jsx
+│   │   ├── ThemeProvider.jsx
+│   │   └── FloatingChatbotWidget.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+|   |   ├── Chat.jsx
+│   │   ├── Features.jsx
+│   │   ├── Help.jsx
+│   │   └── HowTo.jsx
+│   ├── App.jsx
+|   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 💬 Acknowledgements
+
+This project was built under extreme time constraints (3 hours), and every moment was a sprint!
+- ✨ Developed by Aryan Das & Sandra Rosa Prince
+- 🧠 Presentation & Documentation by Tanushree Dhawan & Bhumika Bindal
